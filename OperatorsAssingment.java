@@ -29,7 +29,8 @@ public class OperatorsAssingment {
 //		System.out.println("Adding 100 to First  Number using Compound Assignment = "+a);
 //		System.out.println("Adding 100 to Second Number using Compound Assignment = "+b);		
 //		
-		
+/**************************** Pre-increment & post increment **********************************/
+ 		
 		int a = 3, b = 4, c;
 		c = a + b + a++ + b++ + ++a + ++b; // c = 3 + 4 + 3 + 4 + 5 + 6 = 25
 		System.out.println(c); // Output: 25
